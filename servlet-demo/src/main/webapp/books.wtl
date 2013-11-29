@@ -1,0 +1,45 @@
+<% 
+var books;
+var request;
+var formatDate = native webit.script.demo.mvc.util.DataFormatUtil.format(java.util.Date);
+
+var findBooks = native webit.script.demo.mvc.util.BookUtil.findBooks();
+
+//Load Data
+books = findBooks();
+
+%>
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Webit Script Demo</p>
+    <h1>Request Header</h1>
+    <%
+        var header = request.header;
+        for(name : request.headerNames) {
+    %>
+    <p>${name}: ${request.header[name]}</p>
+    <%  } %>
+    <% if(books){ %>
+    <h1>Books</h1>
+    <table>
+        <tr>
+            <td>序号</td>
+            <td>书名</td>
+            <td>作者</td>
+            <td>出版时间</td>
+            <td>定价</td>
+        </tr>
+        <% for(book : books){ %>
+        <tr>
+            <td>${book.id}</td>
+            <td>${book.title}</td>
+            <td>${book.author}</td>
+            <td>${formatDate(book.publication)}</td>
+            <td>${book.price}</td>
+        </tr>
+        <% } %>
+    </table>
+    <% } %>
+</body>
+</html>

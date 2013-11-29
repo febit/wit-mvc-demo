@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <servlet>
+        <servlet-name>webitScript</servlet-name>
+        <servlet-class>webit.script.support.servlet.WebitScriptServlet</servlet-class>
+        <init-param>
+            <param-name>configPath</param-name>
+            <param-value>/WEB-INF/webit-script-servlet.props</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>webitScript</servlet-name>
+        <url-pattern>*.wtl</url-pattern>
+    </servlet-mapping>
+</web-app>

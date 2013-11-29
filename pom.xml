@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.zqq90.webit-script.mvc-demo</groupId>
+    <artifactId>mvc-demo</artifactId>
+    <packaging>pom</packaging>
+    
+    <version>1.0.0</version>
+    <name>WebitScript MVC demo</name>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <templatesPath>${basedir}/templates</templatesPath>
+    </properties>
+    
+    <modules>
+        <module>base-model</module>
+        <module>jfinal-demo</module>
+        <module>jodd-madvoc-demo</module>
+        <module>spring-mvc-demo</module>
+        <module>struts-demo</module>
+        <module>servlet-demo</module>
+        <module>servlet-filter-demo</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>webit-script</id>
+            <name>Webit script</name>
+            <url>http://zqq90.github.io/maven/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.zqq90.webit-script</groupId>
+            <artifactId>webit-script</artifactId>
+            <version>1.2.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+    
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>base-model</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>web-support</artifactId>
+                <version>1.2.1</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <webResources>
+                        <resource>
+                            <directory>${basedir}/../common-templates</directory>
+                            <targetPath>WEB-INF</targetPath>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

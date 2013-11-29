@@ -1,0 +1,11 @@
+
+[webit.script.Engine]
+loggerClass=webit.script.loggers.impl.SimpleLogger
+
+# [webit.script.web.loaders.ServletLoader]
+# root=/WEB-INF/templates
+
+[webit.script.security.impl.DefaultNativeSecurityManager]
+list='''
+webit.script.demo.mvc.util.DataFormatUtil
+'''
