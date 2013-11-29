@@ -28,22 +28,22 @@ Webit Script MVC demo
 <module>servlet-filter-demo</module>
 ~~~~~
 
-##生成项目
+##生成示例
 
-###IDE生成实例
+###IDE生成示例
 + Netbeans: 在项目右键菜单中选择`清理并构建`即可
 + eclipse 需要先安装Maven 插件
 
 
-###命令行生成实例
+###命令行生成示例
 
 ~~~~~~
 cd /path/to/webitscript-mvc-demo
 mvn clean install
 ~~~~~~
 
-###运行实例
-+ 每个模块的实例将会在 `target` 文件夹下，打包为war文件，已经合并了共享的模板以及配置
-+ 可部署在Tomcat、jetty 等Web容器下
+###运行示例
+- 每个模块的实例将会在 `target` 文件夹下，打包为war文件，已经合并了共享的模板以及配置
+- 可直接部署在Tomcat、jetty 等Web容器下
 
 
