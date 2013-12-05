@@ -47,3 +47,7 @@ mvn clean install
 - 可直接部署在Tomcat、jetty 等Web容器下
 
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/zqq90/webitscript-mvc-demo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
