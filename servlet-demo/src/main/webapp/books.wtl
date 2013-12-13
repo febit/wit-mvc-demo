@@ -1,6 +1,6 @@
 <% 
 var books;
-var request;
+//var request;
 var formatDate = native webit.script.demo.mvc.util.DataFormatUtil.format(java.util.Date);
 
 var findBooks = native webit.script.demo.mvc.util.BookUtil.findBooks();

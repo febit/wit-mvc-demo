@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import webit.script.demo.mvc.util.BookUtil;
-import webit.script.support.servlet.WebitScriptFilterUtil;
+import webit.script.support.servlet.WebitScriptServletUtil;
 
 /**
  * 
@@ -18,7 +18,7 @@ public class BooksServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        //WebitScriptFilterUtil.setTemplatePath(request, "/books.wtl");
+        //WebitScriptServletUtil.setTemplatePath(request, "/books.wtl");
         request.setAttribute("books", BookUtil.findBooks());
     }
 

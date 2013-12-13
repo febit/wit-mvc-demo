@@ -6,7 +6,7 @@ loggerClass=webit.script.loggers.impl.SimpleLogger
 root=/
 
 [webit.script.security.impl.DefaultNativeSecurityManager]
-list='''
+list+='''
  webit.script.demo.mvc.util.DataFormatUtil
  webit.script.demo.mvc.util.BookUtil
 '''
