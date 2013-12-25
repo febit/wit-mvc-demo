@@ -18,7 +18,7 @@ public class BooksServlet extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        //WebitScriptServletUtil.setTemplatePath(request, "/books.wtl");
+        //WebitScriptServletUtil.setTemplatePath(request, "/books.wit");
         request.setAttribute("books", BookUtil.findBooks());
     }
 

@@ -1,11 +1,14 @@
 <% 
 var books;
+var basePath;
 var formatDate = native webit.script.demo.mvc.util.DataFormatUtil.format(java.util.Date);
 %>
 <!DOCTYPE html>
 <html>
 <body>
     <p>Webit Script Demo</p>
+    <h1>basePath</h1>
+    basePath = ${basePath}
     <h1>Request Header</h1>
     <%
         var header = request.header;

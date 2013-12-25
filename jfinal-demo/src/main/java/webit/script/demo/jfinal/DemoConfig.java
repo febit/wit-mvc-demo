@@ -6,6 +6,7 @@ import com.jfinal.config.Interceptors;
 import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
+import com.jfinal.ext.handler.ContextPathHandler;
 import webit.script.support.jfinal.WebitScriptRenderFactory;
 
 public class DemoConfig extends JFinalConfig {
@@ -42,5 +43,6 @@ public class DemoConfig extends JFinalConfig {
      * 配置处理器
      */
     public void configHandler(Handlers me) {
+        me.add(new ContextPathHandler("basePath"));
     }
 }

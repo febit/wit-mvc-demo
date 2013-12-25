@@ -14,6 +14,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>webitScript</servlet-name>
-        <url-pattern>*.wtl</url-pattern>
+        <url-pattern>*.wit</url-pattern>
     </servlet-mapping>
 </web-app>

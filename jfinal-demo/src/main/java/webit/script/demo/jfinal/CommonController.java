@@ -7,7 +7,7 @@ public class CommonController extends Controller {
 
     public void books() {
         setAttr("books", BookUtil.findBooks());
-        render("/books.wtl");
+        render("/books");
     }
 
     public void index() {

@@ -1,6 +1,7 @@
 
 [webit.script.Engine]
 loggerClass=webit.script.loggers.impl.SimpleLogger
+appendLostSuffix=true
 
 # [webit.script.web.loaders.ServletLoader]
 # root=/WEB-INF/templates

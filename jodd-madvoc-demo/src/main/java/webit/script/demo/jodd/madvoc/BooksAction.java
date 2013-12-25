@@ -26,4 +26,10 @@ public class BooksAction {
         this.books = BookUtil.findBooks();
         return RESULT;
     }
+
+    @Action(extension = "html")
+    public Object ok() {
+        this.books = BookUtil.findBooks();
+        return "wtl:#";
+    }
 }

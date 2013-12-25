@@ -12,7 +12,7 @@
     </filter>
     <filter-mapping>
         <filter-name>webitScriptFilter</filter-name>
-        <url-pattern>*.wtl</url-pattern>
+        <url-pattern>*.wit</url-pattern>
     </filter-mapping>
     <servlet>
         <servlet-name>BooksServlet</servlet-name>
@@ -20,6 +20,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>BooksServlet</servlet-name>
-        <url-pattern>/books.wtl</url-pattern>
+        <url-pattern>/books.wit</url-pattern>
     </servlet-mapping>
 </web-app>
