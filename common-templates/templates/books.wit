@@ -1,7 +1,6 @@
 <% 
 var books;
 var basePath;
-var formatDate = native webit.script.demo.mvc.util.DataFormatUtil.format(java.util.Date);
 %>
 <!DOCTYPE html>
 <html>

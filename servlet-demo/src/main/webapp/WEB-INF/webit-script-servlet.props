@@ -7,6 +7,6 @@ root=/
 
 [webit.script.security.impl.DefaultNativeSecurityManager]
 list+='''
- webit.script.demo.mvc.util.DataFormatUtil
+ webit.script.demo.mvc.util.DateFormatUtil
  webit.script.demo.mvc.util.BookUtil
 '''

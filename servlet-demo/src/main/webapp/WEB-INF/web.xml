@@ -9,7 +9,7 @@
         </init-param>
         <init-param>
             <param-name>extra.webit.script.security.impl.DefaultNativeSecurityManager.list+</param-name>
-            <param-value> webit.script.demo.mvc.util.DataFormatUtil, webit.script.demo.mvc.util.BookUtil</param-value>
+            <param-value> webit.script.demo.mvc.util.DateFormatUtil, webit.script.demo.mvc.util.BookUtil</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
