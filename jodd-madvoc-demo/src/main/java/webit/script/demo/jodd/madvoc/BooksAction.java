@@ -16,7 +16,7 @@ import webit.script.support.jodd.madvoc.WebitScriptResult;
 @MadvocAction
 public class BooksAction {
 
-    private final static String RESULT = WebitScriptResult.NAME.concat(":");
+    private final static String RESULT = WebitScriptResult.NAME + ":";
 
     @Out
     List<Book> books;
@@ -30,6 +30,6 @@ public class BooksAction {
     @Action(extension = "html")
     public Object ok() {
         this.books = BookUtil.findBooks();
-        return "wtl:#";
+        return RESULT + "#";
     }
 }

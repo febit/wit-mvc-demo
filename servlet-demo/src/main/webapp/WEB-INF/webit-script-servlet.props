@@ -1,11 +1,11 @@
 
-[webit.script.Engine]
-loggerClass=webit.script.loggers.impl.SimpleLogger
+[engine]
+logger=webit.script.loggers.impl.SimpleLogger
 
-[webit.script.web.loaders.ServletLoader]
+[servletLoader]
 root=/
 
-[webit.script.security.impl.DefaultNativeSecurityManager]
+[nativeSecurity]
 list+='''
  webit.script.demo.mvc.util.DateFormatUtil
  webit.script.demo.mvc.util.BookUtil

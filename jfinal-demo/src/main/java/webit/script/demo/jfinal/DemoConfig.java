@@ -15,7 +15,7 @@ public class DemoConfig extends JFinalConfig {
      * 配置常量
      */
     public void configConstant(Constants me) {
-        WebitScriptRenderFactory factory = new WebitScriptRenderFactory(".wtl");
+        WebitScriptRenderFactory factory = new WebitScriptRenderFactory(".wit");
         //factory.setConfigPath("/WEB-INF/your/templates/path");
         me.setMainRenderFactory(factory);
     }

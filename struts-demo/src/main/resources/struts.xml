@@ -7,7 +7,7 @@
     <constant name="struts.action.extension" value="html" />
     <package name="demo" extends="webitScript-default">
         <action name="books" class="webit.script.demo.struts.BooksAction">
-            <result type="wtl">/books-struts</result>
+            <result type="wit">/books-struts</result>
         </action>
     </package>
 </struts>

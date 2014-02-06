@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import webit.script.demo.mvc.util.BookUtil;
-import webit.script.support.servlet.WebitScriptServletUtil;
 
 /**
  * 

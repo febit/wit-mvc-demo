@@ -1,7 +1,7 @@
 <%
 
-var CONST_MAP;
+var CONST;
 
-CONST_MAP.formatDate = native webit.script.demo.mvc.util.DateFormatUtil.format(java.util.Date);
+CONST.formatDate = native webit.script.demo.mvc.util.DateFormatUtil.format(java.util.Date);
 
 %>
