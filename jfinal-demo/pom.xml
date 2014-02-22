@@ -26,5 +26,10 @@
             <artifactId>jfinal</artifactId>
             <version>1.5</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.zqq90.webit-script</groupId>
+            <artifactId>webit-script-jfinal</artifactId>
+            <version>1.4.1</version>
+        </dependency>
     </dependencies>
 </project>

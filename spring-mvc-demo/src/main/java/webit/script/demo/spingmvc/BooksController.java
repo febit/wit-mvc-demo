@@ -1,4 +1,4 @@
-package webit.script.demo.sping.mvc;
+package webit.script.demo.spingmvc;
 
 import java.util.Map;
 

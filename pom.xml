@@ -17,6 +17,7 @@
         <module>base-model</module>
         <module>jfinal-demo</module>
         <module>jodd-madvoc-demo</module>
+        <module>jodd-madvoc-3.4-demo</module>
         <module>spring-mvc-demo</module>
         <module>struts-demo</module>
         <module>servlet-demo</module>
@@ -35,7 +36,7 @@
         <dependency>
             <groupId>com.github.zqq90.webit-script</groupId>
             <artifactId>webit-script</artifactId>
-            <version>1.4.0</version>
+            <version>1.4.1</version>
         </dependency>
     </dependencies>
     
