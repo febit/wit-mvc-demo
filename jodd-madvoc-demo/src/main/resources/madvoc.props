@@ -1,5 +1,9 @@
 ## Jodd Madvoc 的配置文件
 
+
+[madvocConfig]
+defaultResultType=wit
+
 # WebitScriptResult
 [webit.script.support.jodd.madvoc.WebitScriptResult]
 contentType=text/html; charset=UTF-8
