@@ -7,7 +7,7 @@ import com.jfinal.config.JFinalConfig;
 import com.jfinal.config.Plugins;
 import com.jfinal.config.Routes;
 import com.jfinal.ext.handler.ContextPathHandler;
-import webit.script.support.jfinal.WebitScriptRenderFactory;
+import webit.script.support.jfinal.WebitRenderFactory;
 
 public class DemoConfig extends JFinalConfig {
 
@@ -15,7 +15,7 @@ public class DemoConfig extends JFinalConfig {
      * 配置常量
      */
     public void configConstant(Constants me) {
-        WebitScriptRenderFactory factory = new WebitScriptRenderFactory(".wit");
+        WebitRenderFactory factory = new WebitRenderFactory(".wit");
         //factory.setConfigPath("/WEB-INF/your/templates/path");
         me.setMainRenderFactory(factory);
     }

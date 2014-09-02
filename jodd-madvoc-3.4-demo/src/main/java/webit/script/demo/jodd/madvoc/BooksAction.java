@@ -7,7 +7,7 @@ import jodd.madvoc.meta.MadvocAction;
 import jodd.madvoc.meta.Out;
 import webit.script.demo.mvc.model.Book;
 import webit.script.demo.mvc.util.BookUtil;
-import webit.script.support.jodd.madvoc.WebitScriptResult;
+import webit.script.support.jodd3_4.WebitResult;
 
 /**
  *
@@ -16,7 +16,7 @@ import webit.script.support.jodd.madvoc.WebitScriptResult;
 @MadvocAction
 public class BooksAction {
 
-    private final static String RESULT = WebitScriptResult.NAME + ":";
+    private final static String RESULT = WebitResult.NAME + ":";
 
     @Out
     List<Book> books;

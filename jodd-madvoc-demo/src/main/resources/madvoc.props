@@ -4,7 +4,7 @@
 [madvocConfig]
 defaultResultType=wit
 
-# WebitScriptResult
-[webit.script.support.jodd.madvoc.WebitScriptResult]
+# WebitResult
+[webit.script.support.jodd3.WebitResult]
 contentType=text/html; charset=UTF-8
-#configPath=/WEB-INF/webit-script-webpage.props
+#configPath=/WEB-INF/webpage.wim

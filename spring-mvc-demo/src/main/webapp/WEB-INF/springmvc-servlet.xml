@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="viewResolver" class="webit.script.support.springmvc3.WebitScriptViewResolver">
+    <bean id="viewResolver" class="webit.script.support.springmvc3.WebitViewResolver">
         <property name="contentType" value="text/html; charset=UTF-8" />
     </bean>
 

@@ -1,0 +1,8 @@
+
+[engine]
+logger=webit.script.loggers.impl.SimpleLogger
+
+
+[servletLoader]
+root=/
+

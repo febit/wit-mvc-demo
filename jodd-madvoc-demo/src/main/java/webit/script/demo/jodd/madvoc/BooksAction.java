@@ -7,7 +7,7 @@ import jodd.madvoc.meta.MadvocAction;
 import jodd.madvoc.meta.Out;
 import webit.script.demo.mvc.model.Book;
 import webit.script.demo.mvc.util.BookUtil;
-import webit.script.support.jodd3_5.WebitScriptResult;
+import webit.script.support.jodd3.WebitResult;
 
 /**
  *
@@ -22,13 +22,13 @@ public class BooksAction {
     @Action(extension = "html")
     public Object view() {
         this.books = BookUtil.findBooks();
-        return WebitScriptResult.render("OK");
+        return WebitResult.render("OK");
     }
 
     @Action(extension = "html")
     public Object ok() {
         this.books = BookUtil.findBooks();
-        return WebitScriptResult.render("##");
+        return WebitResult.render("##");
     }
 
     @Action

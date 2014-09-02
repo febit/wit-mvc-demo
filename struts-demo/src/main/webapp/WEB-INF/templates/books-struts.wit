@@ -1,6 +1,6 @@
 <% 
 var action;
-//var request;
+
 var books = action.books;
 %>
 <!DOCTYPE html>

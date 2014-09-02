@@ -27,5 +27,10 @@
             <version>2.5</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.zqq90.webit-script</groupId>
+            <artifactId>webit-script-servlet</artifactId>
+            <version>1.5</version>
+        </dependency>
     </dependencies>
 </project>

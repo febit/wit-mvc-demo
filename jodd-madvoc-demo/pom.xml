@@ -38,8 +38,8 @@
         </dependency>
         <dependency>
             <groupId>com.github.zqq90.webit-script</groupId>
-            <artifactId>webit-script-jodd3_5</artifactId>
-            <version>1.4.1</version>
+            <artifactId>webit-script-jodd3</artifactId>
+            <version>1.5</version>
         </dependency>
     </dependencies>
 </project>

@@ -5,7 +5,7 @@
 <struts>
     <constant name="struts.objectFactory" value="spring" />
     <constant name="struts.action.extension" value="html" />
-    <package name="demo" extends="webitScript-default">
+    <package name="demo" extends="webit-default">
         <action name="books" class="webit.script.demo.struts.BooksAction">
             <result type="wit">/books-struts</result>
         </action>

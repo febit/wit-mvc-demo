@@ -21,5 +21,10 @@
             <groupId>${project.groupId}</groupId>
             <artifactId>base-model</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.zqq90.webit-script</groupId>
+            <artifactId>webit-script-servlet</artifactId>
+            <version>1.5</version>
+        </dependency>
     </dependencies>
 </project>

@@ -5,7 +5,7 @@
     <artifactId>mvc-demo</artifactId>
     <packaging>pom</packaging>
     
-    <version>1.1.0</version>
+    <version>1.2.0</version>
     <name>WebitScript MVC demo</name>
     
     <properties>
@@ -24,19 +24,11 @@
         <module>servlet-filter-demo</module>
     </modules>
 
-    <repositories>
-        <repository>
-            <id>webit-script</id>
-            <name>Webit script</name>
-            <url>http://zqq90.github.io/maven/</url>
-        </repository>
-    </repositories>
-
     <dependencies>
         <dependency>
             <groupId>com.github.zqq90.webit-script</groupId>
             <artifactId>webit-script</artifactId>
-            <version>1.4.1</version>
+            <version>1.5</version>
         </dependency>
     </dependencies>
     
