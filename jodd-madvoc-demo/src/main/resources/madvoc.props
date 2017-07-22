@@ -1,10 +1,8 @@
 ## Jodd Madvoc 的配置文件
 
-
 [madvocConfig]
-defaultResultType=wit
 
-# WebitResult
-[webit.script.support.jodd3.WebitResult]
+# WitResult
+[org.febit.wit.support.jodd3.WitResult]
 contentType=text/html; charset=UTF-8
 #configPath=/WEB-INF/webpage.wim

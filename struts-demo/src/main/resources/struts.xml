@@ -5,8 +5,8 @@
 <struts>
     <constant name="struts.objectFactory" value="spring" />
     <constant name="struts.action.extension" value="html" />
-    <package name="demo" extends="webit-default">
-        <action name="books" class="webit.script.demo.struts.BooksAction">
+    <package name="demo" extends="wit-default">
+        <action name="books" class="org.febit.wit.demo.struts.BooksAction">
             <result type="wit">/books-struts</result>
         </action>
     </package>

@@ -1,10 +1,10 @@
 
+[logger :slf4jLogger]
+
 [engine]
-logger=webit.script.loggers.impl.SimpleLogger
-appendLostSuffix=true
 inits=/init
+
+[servletLoader]
+root=/WEB-INF/templates
+appendLostSuffix=true
 suffix=.wit
-
-# [webit.script.web.loaders.ServletLoader]
-# root=/WEB-INF/templates
-

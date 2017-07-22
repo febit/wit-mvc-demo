@@ -5,8 +5,11 @@ var books = action.books;
 %>
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+</head>
 <body>
-    <p>Webit Script Demo</p>
+    <p>Wit Demo</p>
     <h1>Request Header</h1>
     <%
         var header = request.header;

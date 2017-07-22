@@ -1,9 +1,9 @@
 <% 
 var books;
 //var request;
-var formatDate = native webit.script.demo.mvc.util.DateFormatUtil.format(java.util.Date);
+var formatDate = native org.febit.wit.demo.mvc.util.DateFormatUtil.format(java.util.Date);
 
-var findBooks = native webit.script.demo.mvc.util.BookUtil.findBooks();
+var findBooks = native org.febit.wit.demo.mvc.util.BookUtil.findBooks();
 
 //Load Data
 books = findBooks();
@@ -11,8 +11,11 @@ books = findBooks();
 %>
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="UTF-8">
+</head>
 <body>
-    <p>Webit Script Demo</p>
+    <p>Wit Demo</p>
     <h1>Request Header</h1>
     <%
         var header = request.header;

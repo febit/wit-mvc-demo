@@ -1,6 +1,0 @@
-## Jodd Madvoc 的配置文件
-
-# WebitResult
-[webit.script.support.jodd3_4.WebitResult]
-contentType=text/html; charset=UTF-8
-#configPath=/WEB-INF/webpage.wim

@@ -2,6 +2,6 @@
 
 var CONST;
 
-CONST.formatDate = native webit.script.demo.mvc.util.DateFormatUtil.format(java.util.Date);
+CONST.formatDate = native org.febit.wit.demo.mvc.util.DateFormatUtil.format(java.util.Date);
 
 %>

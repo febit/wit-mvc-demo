@@ -1,25 +1,12 @@
 <?xml version="1.0"?>
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <modelVersion>4.0.0</modelVersion>
-    <parent>
-        <groupId>com.github.zqq90.webit-script.mvc-demo</groupId>
-        <artifactId>mvc-demo</artifactId>
-        <version>1.1.0</version>
-    </parent>
-    <artifactId>base-model</artifactId>
-    <name>base-model</name>
-    
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
-    
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.febit.wit.demo</groupId>
+    <artifactId>mvc-demo</artifactId>
+    <version>1.3.0</version>
+  </parent>
+  <artifactId>base-model</artifactId>
+  <name>base-model</name>
 </project>

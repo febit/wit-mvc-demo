@@ -4,10 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="viewResolver" class="webit.script.support.springmvc3.WebitViewResolver">
+    <bean id="viewResolver" class="org.febit.wit.support.springmvc3.WitViewResolver">
         <property name="contentType" value="text/html; charset=UTF-8" />
     </bean>
 
-    <bean id="booksController" class="webit.script.demo.spingmvc.BooksController">
+    <bean id="booksController" class="org.febit.wit.demo.spingmvc.BooksController">
     </bean>
 </beans>

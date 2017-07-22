@@ -1,7 +1,5 @@
 
-[engine]
-logger=webit.script.loggers.impl.SimpleLogger
-
+[logger :slf4jLogger]
 
 [servletLoader]
 root=/
